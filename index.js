@@ -2,7 +2,7 @@ let recipes = {}
 
 function updateObjectWithKeyAndValue(obj, key, value){
   let newObj = {}
-  newObj.assign({})
+  newObj.assign({key: value})
   return newObj
 }
 
